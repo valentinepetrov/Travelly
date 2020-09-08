@@ -1,0 +1,442 @@
+section.the-main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+/* the 1 section => */
+
+.the-1-section {
+    display: flex;
+    background-image: url("../images/theMain/nightGreeceBig.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    height: 50vw;
+    /*
+     background-position: center center; 
+    */
+}
+
+div.the-main-question {
+    margin: auto;
+}
+
+.the-1-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.the-1-section form > div.for-form {
+    display: flex;
+}
+
+.the-1-section form input#place {
+    width: 325px;
+    height: 40px;
+}
+
+.the-1-section form input#place {
+    width: 325px;
+    height: 40px;
+}
+
+.the-1-section form input#place {
+    width: 325px;
+    height: 40px;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(139, 139, 139);
+    line-height: 1.2;
+}
+
+.the-1-section form input[type="button"] {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(253, 79, 50);
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.the-1-section form > label {
+    font-size: 52px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+/* <= the 1 section */
+
+/* the 2 section => */
+
+.the-2-section {
+    background-color: rgb(238, 238, 238);
+    min-height: 550px;
+    height: auto;
+    display: flex;
+}
+
+.inside-2-section {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /*width: -webkit-fill-available; */
+}
+
+.inside-2-section > p {
+    padding-left: 5px;
+    margin: 5px;
+}
+
+.inside-2-section p:first-child {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.inside-2-section p:nth-child(2) {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(139, 139, 139);
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+div.pictures {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.pictures div {
+    width: 240px;
+    height: 320px;
+    margin: 10px 15px;
+    box-shadow: 0 0 5px #000000;
+    background-color: rgb(238, 238, 238);
+}
+
+.pictures > div:hover {
+    transform: scale(1.2);
+    transition: transform 0.7s;
+    z-index: 1;
+    cursor: pointer;
+}
+
+div.pictures div > p:nth-child(2) {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0;
+    padding: 18px 18px 0 18px;
+}
+
+div.pictures div > p:last-child {
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(105, 105, 105);
+    line-height: 1.462;
+    margin: 0;
+    padding: 10px 18px;
+}
+
+div.pictures > div > div {
+    margin: 0;
+    width: 240px;
+    height: 200px;
+    position: relative;
+}
+
+div.pictures > div > div > p.cost {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    font-weight: normal;
+}
+
+div.australia-block > div {
+    background-image: url("../images/theMain/amazineAurstralia.jpg");
+    background-position: center center;
+}
+
+div.south-america-block > div {
+    background-image: url("../images/theMain/ancientSouthAmerica.jpg");
+    background-position: center center;
+}
+
+div.north-america-block > div {
+    background-image: url("../images/theMain/modernNorthAmerica.jpg");
+    background-position: center center;
+}
+
+div.europe-block > div {
+    background-image: url("../images/theMain/classicEurope.jpg");
+    background-position: center center;
+}
+
+/* <= the 2 section */
+
+/* the 3 section => */
+
+.the-3-section {
+    background-color: rgb(255, 255, 255);
+    min-height: 550px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.inside-3-section {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks-3-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block-1-section-3,
+.block-2-section-3,
+.block-3-section-3 {
+    width: 280px;
+    height: 150px;
+    margin: 30px 50px;
+}
+
+.the-main-question-in-3-section {
+    margin-top: 40px;
+    align-self: center;
+}
+
+.for-form-section-3 {
+    margin-top: 40px;
+}
+
+.email-adress {
+    width: 325px;
+    height: 40px;
+    background-color: rgb(238, 238, 238);
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.subscribe {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(253, 79, 50);
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.for-form-section-3 {
+    display: flex;
+}
+
+.before-you-leave {
+    font-size: 52px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(50, 50, 50);
+    line-height: 1.2;
+    font-weight: 300;
+    display: inline-block;
+    margin-left: 45px;
+}
+
+.visa-documents,
+.accommodation,
+.transportation,
+.get-hottest-deals {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.there-are-some-1,
+.there-are-some-2,
+.there-are-some-3 {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(139, 139, 139);
+    line-height: 1.467;
+    padding-right: 50px;
+}
+
+.email-adress {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(139, 139, 139);
+    line-height: 1.2;
+}
+
+.subscribe {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+/* <= the 3 section */
+
+@media only all and (max-width: 980px) {
+    .inside-2-section {
+        align-items: center;
+    }
+
+    .pictures > div:hover {
+        transform: none;
+        cursor: pointer;
+    }
+
+    .pictures > div:active {
+        transform: scale(1.2);
+        transition: transform 0.7s;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    /* <= the 3 section */
+
+    .inside-3-section {
+        text-align: center;
+    }
+
+    .there-are-some-1,
+    .there-are-some-2,
+    .there-are-some-3 {
+        padding-right: 0px;
+    }
+
+    .block-1-section-3,
+    .block-2-section-3,
+    .block-3-section-3 {
+        width: 90%;
+        margin: 0px 0px;
+    }
+
+    /* <= the 3 section */
+}
+
+@media only all and (max-width: 640px) {
+    /* the 1 section => */
+
+    .the-1-section {
+        min-height: 380px;
+    }
+
+    .the-1-section form > div.for-form {
+        flex-direction: column-reverse;
+    }
+
+    div.the-main-question {
+        margin-bottom: 15px;
+    }
+
+    .the-1-section form input#place {
+        width: 260px;
+    }
+
+    .the-1-section form input[type="button"] {
+        width: 260px;
+    }
+
+    .the-1-section form > label {
+        font-size: 40px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* <= the 1 section */
+
+    /* the 2 section => */
+
+    .inside-2-section > p {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /* <= the 2 section */
+
+    /* the 3 section => */
+
+    .for-form-section-3 {
+        flex-direction: column;
+    }
+
+    .subscribe {
+        width: 260px;
+    }
+
+    .email-adress {
+        width: 260px;
+    }
+
+    .before-you-leave {
+        font-size: 40px;
+    }
+
+    /* <= the 3 section */
+}
+
+@media only all and (max-width: 320px) {
+    section.the-main-section {
+        max-width: 320px;
+    }
+
+    /* the 1 section => */
+
+    .the-1-section form > label {
+        font-size: 30px;
+    }
+
+    /* <= the 1 section */
+
+    /* the 2 section => */
+
+    /* <= the 2 section */
+
+    /* the 3 section => */
+
+    .the-main-question-in-3-section {
+        width: 300px;
+    }
+
+    .before-you-leave {
+        font-size: 30px;
+    }
+
+    /* <= the 3 section */
+}

@@ -1,0 +1,178 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+header a.travelly-for-main-label,
+div.menu-level-2 p {
+    color: grey;
+}
+
+.the-main-section p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.467;
+    padding: 20px;
+}
+
+.the-main-section h4 {
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.the-main-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.the-about-section,
+.the-blog-section,
+.the-press-section,
+.the-contact-section {
+    width: 100%;
+    min-height: 400px;
+    text-align: center;
+}
+
+.the-about-section {
+    background-color: rgb(238, 238, 238);
+    padding-top: 120px;
+}
+
+.image-for-about {
+    /* -webkit-mask: url('../images/info/ellipse_mask.png');*/
+    max-width: 100%;
+}
+
+.image-for-blog-1,
+.image-for-blog-2 {
+    border-radius: 50px;
+    margin: 20px;
+    width: 60%;
+    max-width: 800px;
+}
+
+.image-for-blog-1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.image-for-blog-2 {
+    float: right;
+    clear: both;
+    margin-left: 20px;
+}
+
+.the-blog-section-p-2 {
+    clear: left;
+}
+
+.the-contact-section {
+    background-color: rgb(238, 238, 238);
+}
+
+.the-press-section-for-a a {
+    width: 300px;
+    height: 40px;
+    -webkit-box-shadow: 0 0 5px #000000;
+    box-shadow: 0 0 5px #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 238, 238);
+    margin: 10px 5px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.467;
+    padding: 20px;
+}
+
+.the-press-section-for-a a:hover {
+    background-color: silver;
+}
+
+.the-press-section-for-a {
+    min-height: 380px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: space-evenly;
+    align-content: space-evenly;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.map-from-google-for-contact {
+    width: 100%;
+    height: 450px;
+}
+
+@media only all and (max-width: 980px) {
+    .the-press-section-for-a a:hover {
+        background-color: rgb(238, 238, 238);
+    }
+
+    .the-press-section-for-a a:active {
+        background-color: silver;
+    }
+}
+
+@media only all and (max-width: 640px) {
+    .image-for-blog-1,
+    .image-for-blog-2 {
+        width: 80%;
+        float: none;
+    }
+
+    .the-blog-section p {
+        clear: both;
+    }
+
+    .the-main-section p,
+    .the-press-section-for-a a {
+        font-size: 15px;
+    }
+
+    .the-main-section h4 {
+        font-size: 20px;
+    }
+}
+
+@media only all and (max-width: 320px) {
+    /*
+    .image-for-about {
+        -webkit-mask: url('../images/info/ellipse_mask\(middle\).png');
+    }
+    */
+    .the-main-section p {
+        font-size: 10px;
+    }
+
+    .the-main-section h4,
+    .the-press-section-for-a a {
+        font-size: 15px;
+    }
+}
